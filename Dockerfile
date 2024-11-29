@@ -14,7 +14,7 @@ RUN go mod download
 COPY . .
 
 # Сборка приложения
-RUN go build -o parcel-service main.go
+RUN go build -o parcel-service .
 
 # Указываем команду для запуска приложения
 CMD ["./parcel-service"]
