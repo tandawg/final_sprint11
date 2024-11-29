@@ -116,7 +116,7 @@ func main() {
 		return
 	}
 
-	// изменение адреса
+	// изменение адреса отправки
 	newAddress := "Саратов, д. Верхние Зори, ул. Козлова, д. 25"
 	err = service.ChangeAddress(p.Number, newAddress)
 	if err != nil {
